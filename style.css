@@ -1,0 +1,57 @@
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.card{
+    width: 30%;
+    background-color: #FFEAB6;
+    padding: 2rem 0 6rem 0;
+    
+}
+.container{
+    width: 90%; margin: auto;
+}
+.second{
+    padding: 7rem 0 2rem 0; 
+}
+.grid{
+    display: grid;
+    grid-template-columns: 47% 47%;
+    gap: 6%;
+    align-items: center;
+}
+h1{
+    font-size: 5rem;
+}
+p{
+    font-size: 1.2rem;
+}
+h4{
+    font-size: 1.3rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+button{
+    width: 100%;
+ padding: 1rem 0;
+ border-radius: 1.5rem;
+ background-color: #FFFFFF;
+}
+.fourth{
+    padding-top: 2rem;
+}
+.first{
+    padding-top: 2rem;
+}
+
