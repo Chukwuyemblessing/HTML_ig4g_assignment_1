@@ -1,0 +1,46 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+table, th, tr, td{
+    border: 1px solid black;
+}
+.pictures{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 4%;
+    width: 100%;
+}
+.image-card{
+    height:300px;
+    width: 250px;
+    background-color: rgb(58, 155, 155);
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.img-card{
+    height: 80%;
+    width: 100%;
+}
+main{
+    
+    padding: 2rem 0 5rem 0;
+    width: 100%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.card-sec{
+   
+    width: 100%;
+}
+.pt{
+    padding-top: 2rem;
+}
+.pt2{
+    padding-bottom: 1rem;
+}
